@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
     var color = colorLi.style.backgroundColor;
     var elName = colorLi.parentElement.parentElement.className.split("-")[0];
     var el = document.getElementsByClassName(elName)[0];
+    show(elName);
     if (elName == "hat") {
       el.style.borderBottomColor = color;
     }
